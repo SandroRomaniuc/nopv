@@ -1,0 +1,183 @@
+body{ 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section{
+    height: 80vh;
+
+    background-image: url("../img/bg-top-right1.png");
+    /*background-position: top right;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.baixo{
+   
+    
+    position: absolute;
+    /*background: #6760e5;*/
+    height: 200px;
+    position: absolute;
+    bottom : -5px;
+    width: 150%;
+   
+
+}
+
+.baixodir{
+    opacity: 0.9;
+    margin-left: 75%;
+    position: absolute;
+    
+    height: 300px;
+    position: absolute;
+    bottom : -5px;
+    width: 150%;
+   
+
+}
+
+.baixo img {
+    position: absolute;
+    /*top: -98%;*/
+   
+}
+
+#minimo{
+    min-width: 250px;
+}
+
+#flutua{
+
+    
+    border-radius: 20px;
+    width:20%; /* largura da imagem máscara */
+    height:150%; /* altura da imagem máscara */
+    position:absolute;
+    top:0;
+    left:20;
+    background:url(../img/img1.png) 0 0 no-repeat;
+    background-size: 60%;
+    background-position: center top 0;
+
+    
+}
+
+#flutuadir{
+       
+      
+        width:20%; /* largura da imagem máscara */
+        height:150%; /* altura da imagem máscara */
+        position:absolute;
+        top:0;
+        left:20;
+       
+        background-size: 60%;
+        background-position: center top 0;
+    
+        
+    }
+
+.opacy{
+    opacity: 0.9;
+    background-color:  #72d4f1;
+}
+
+
+/*navbar*/
+#caixa-nave a{
+    color: #000;
+}
+/*fim navbar*/
+
+.bgsecao2{
+    background:url(../img/bgsecao2.png) 0 0 no-repeat;   
+}
+
+
+/*footer*/
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #72d4f1;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #72d4f1!important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #000000;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#000000;
+}
+
+
+
+#footer a {
+    color: #000000;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#000000;
+}
+#footer ul.social li a:hover{
+	columns: #000000;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/*fim footer*/
+
